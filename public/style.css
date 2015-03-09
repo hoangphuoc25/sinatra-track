@@ -1,0 +1,19 @@
+
+label {
+	font-color: red;
+}
+
+input[type="text"]:focus {
+	width: 150px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    outline: none;
+}
+
+input[type="text"] {
+	outline: none;
+}
+
+input[type="password"] {
+	outline: none;
+}

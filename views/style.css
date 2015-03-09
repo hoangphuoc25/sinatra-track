@@ -1,0 +1,11 @@
+
+label {
+	font-color: red;
+}
+
+input[type="text"]:focus {
+	width: 150px;
+    margin-bottom: 10px;
+    background-color: green;
+    outline: 0;
+}

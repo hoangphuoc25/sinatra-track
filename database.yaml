@@ -1,0 +1,6 @@
+database:
+	adapter: mysql
+	database: sinatra
+	username: root
+	password: password
+	host: localhost:3306

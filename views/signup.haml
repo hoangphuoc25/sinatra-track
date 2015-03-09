@@ -1,0 +1,13 @@
+%html
+	%body
+		%form{ :action=> "/signup", :method => "post"}
+			%label Name:
+			%input{ :type => "text", :name => "username"}
+			%p
+			%label Password
+			%input{ :type => "password", :name => "password"}
+			%p
+			%label Confirm Password
+			%input{ :type => "password", :name => "repeatPassword"}
+			%p
+			%input{ :type => "submit", :value => "Sign up"}

@@ -1,0 +1,16 @@
+!!!
+%html
+	%head
+		%link{:href => "/style.css", :rel => "stylesheet", :type => "text/css"}/
+	%body 
+		%form{ :action => "/", :method => "post"}
+			%ol
+				%li
+					%p{:for => "name"} Username:
+					%input{:type => "text", :name => "name"}
+				%li
+					%p{:for => "mail"} Password:
+					%input{:type => "password", :name => "password"}
+			%input{:type => "submit", :value => "Send"}
+		%p Not a user yet? 
+		%a{ :href => "/signup"} Sign up now
